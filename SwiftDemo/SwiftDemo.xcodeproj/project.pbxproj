@@ -14,6 +14,8 @@
 		181D54E31F8F0504005B52A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181D54E11F8F0504005B52A7 /* LaunchScreen.storyboard */; };
 		181D54EE1F8F0504005B52A7 /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D54ED1F8F0504005B52A7 /* SwiftDemoTests.swift */; };
 		181D54F91F8F0504005B52A7 /* SwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D54F81F8F0504005B52A7 /* SwiftDemoUITests.swift */; };
+		181D55081F8F057A005B52A7 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181D55061F8F057A005B52A7 /* TwoViewController.swift */; };
+		181D55091F8F057A005B52A7 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181D55071F8F057A005B52A7 /* TwoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		181D54F41F8F0504005B52A7 /* SwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181D54F81F8F0504005B52A7 /* SwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoUITests.swift; sourceTree = "<group>"; };
 		181D54FA1F8F0504005B52A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181D55061F8F057A005B52A7 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		181D55071F8F057A005B52A7 /* TwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				181D54DF1F8F0504005B52A7 /* Assets.xcassets */,
 				181D54E11F8F0504005B52A7 /* LaunchScreen.storyboard */,
 				181D54E41F8F0504005B52A7 /* Info.plist */,
+				181D55061F8F057A005B52A7 /* TwoViewController.swift */,
+				181D55071F8F057A005B52A7 /* TwoViewController.xib */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				181D54E31F8F0504005B52A7 /* LaunchScreen.storyboard in Resources */,
 				181D54E01F8F0504005B52A7 /* Assets.xcassets in Resources */,
 				181D54DE1F8F0504005B52A7 /* Main.storyboard in Resources */,
+				181D55091F8F057A005B52A7 /* TwoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			files = (
 				181D54DB1F8F0504005B52A7 /* ViewController.swift in Sources */,
 				181D54D91F8F0504005B52A7 /* AppDelegate.swift in Sources */,
+				181D55081F8F057A005B52A7 /* TwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
